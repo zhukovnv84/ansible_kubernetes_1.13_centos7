@@ -116,7 +116,7 @@ The sample playbook below can be used to deploy an Spark using an HDP distributi
   remote_user: root
   roles:
     - role: common
-    - role: spark
+    - role: kubernetes 
 ```
 
 ### Deploying
